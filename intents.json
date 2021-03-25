@@ -1,0 +1,238 @@
+{"intents": [
+        {"tag": "name",
+         "patterns": ["what is the name of the department?", "what is the full form of CSE?", "which department is this?"],
+         "responses": ["Computer Science & Engineering"],
+         "context_set": ""
+        },
+        {"tag": "programs",
+         "patterns": ["what programs does this course offer?", "what are the programs this course offers?"],
+         "responses": ["BSc in CSE, MSc in CSE, M Engg in Computer Science, Ph.D. in CSE"],
+         "context_set": ""
+        },
+        {"tag": "MIST",
+         "patterns": ["what is the name of this institution?", "what is the name of your institution?", "What is the full form of MIST?"],
+         "responses": ["Military Institute of Science & Technology"],
+         "context_set": ""
+        },
+        {"tag": "Faculty",
+         "patterns": ["How many faculties are there in CSE department?", "what is the strength of faculties of CSE department?"],
+         "responses": ["1 Head of the department, 4 Professors, 3 Associate Professors, 6 Assistant Professors and 16 Lecturers"],
+         "context_set": ""
+        },
+        {"tag": "Lab",
+         "patterns": ["How many laboratories are there in CSE department?", "How many laboratories does CSE department have?"],
+         "responses": ["CSE department has 8 laboratories."],
+         "context_set": ""
+        },
+        {"tag": "Cyber Gym",
+         "patterns": ["Is it true that CSE department will be having a cyber gym very soon?", "I heard CSE department will have a cyber gym very soon.", "Tell me about the cyber gym."],
+         "responses": ["CSE department of MIST will be the first in Bangladesh to have a cyber gym by the end of 2020. It is funded by the department of ICT and will provide a platform for the students to practice cyber attack and cyber defense."],
+         "context_set": ""
+        },
+        {"tag": "Library",
+         "patterns": ["Does the department of CSE have a library?", "Tell me about the CSE department library."],
+         "responses": ["The CSE department library has over 800 books and close to 300 thesis papers of ex-students."],
+         "context_set": ""
+        },
+        {"tag": "Department",
+         "patterns": ["How many departments does MIST have?", "what is the total number of department in MIST?"],
+         "responses": ["MIST has a total of 13 departments."],
+         "context_set": ""
+        },
+        {"tag": "Commandant",
+         "patterns": ["who is the present commandant of MIST?", "what is the name of the commandant of MIST?"],
+         "responses": ["The current commandant is Major General Wahid-uz-Zaman."],
+         "context_set": ""
+        },
+        {"tag": "Clubs",
+         "patterns": ["How many clubs are there in MIST?", "Does MIST have any club?"],
+         "responses": ["There are 12 clubs in MIST.", "MIST has a total of 12 clubs."],
+         "context_set": ""
+        },
+        {"tag": "public",
+         "patterns": ["is it private or public?"],
+         "responses": ["Military Institute of Science and Technology (MIST) is a public engineering institution in Mirpur Cantonment, Dhaka, Bangladesh"],
+         "context_set": ""
+        },
+        {"tag": "admission marks",
+         "patterns": ["what is the total mark in admission exam?" , "admission exam marks"],
+         "responses": ["total 200 marks", "200 marks"],
+         "context_set": ""
+        },
+
+        {"tag": "language",
+         "patterns": ["will be the question in English or Bengali?" , "what is the language of questions?", "admission question language"],
+         "responses": ["The question will be in Bengali and it will be translated into English in the bracket.", "you don't have to worry because the Question will be both in Bengali and English"],
+         "context_set": ""
+        },
+
+        {"tag": "marks distribution",
+         "patterns": ["what is the marks distribution in admission exam", "how marks will be distributed in admission exam?"],
+         "responses": ["16 questions will be from math which will carry 80 marks, 12 questions will be from physics which will carry 60 marks, 8 questions will be from chemistry which will carry 40 marks and 4 questions will be from English which will carry 20"],
+         "context_set": ""
+        },
+
+        {"tag": "GPA",
+         "patterns": ["is there any additional marks for HSC result?" , "does GPA in HSC exam carry any marks for admission?"],
+         "responses": ["No additional marks will be given based on HSC results"],
+         "context_set": ""
+        },
+
+        {"tag": "calculator",
+         "patterns": ["which type of calculator is preferred", "what kind of calculator should I use in the exams"],
+         "responses": ["any kind of non-programmable calculator will be allowed"],
+         "context_set": ""
+        },
+
+        {"tag": "admission pass mark",
+         "patterns": ["is there any individual pass marks for individual subjects in admission exam?", "is there any pass mark for different units?"],
+         "responses": ["there is no pass mark for individual subject but you will have to achive 80 marks in unit A and 40 marks in unit B to pass"],
+         "context_set": ""
+        },
+
+        {"tag": "transportation",
+         "patterns": ["is there any bus service for students?", "how can I go to mist everyday"],
+         "responses": ["there are several bus services for students which stops at several stopage. Students can go to mist in morning and at 3pm they can take the bus to reach to their home"],
+         "context_set": ""
+        },
+
+        {"tag": "seat",
+         "patterns": ["how many seat are in unit A without quota?", "how many students will be admitted?"],
+         "responses": ["342 seats are in unit A without quota"],
+         "context_set": ""
+        },
+
+        {"tag": "expenses",
+         "patterns": ["how much does it cost to complete BSc in mist?", "how much we have to pay?"],
+         "responses": ["If your parents are government jobholders, you will have to pay approximately 3 lacs in total; otherwise, you will have to pay 4 lacs."],
+         "context_set": ""
+        },
+
+        {"tag": "class duration",
+         "patterns": ["what is the class duration?", "when the class starts and ends?"],
+         "responses": ["In general classes start at 8:00 hours and end at 14:40 hours. But mostly class duration depends on the routine. There may be class or lab after 14:40 hours which is quite rare."],
+         "context_set": ""
+        },
+
+        {"tag": "hall seat",
+         "patterns": ["Is there any hall available for students?", "Is hall seat available?"],
+         "responses": ["Mist has Osmany Hall which is divided into two part : male wing and female wing. Besides if the student number exceeds the number of seat in Osmany hall, Mist authority manages extension hall in Mirpur DOHS. So hall seat is always available but sometimes it can take some time to get a seat."],
+         "context_set": ""
+        },
+
+        {"tag": "hall expenses",
+         "patterns": ["How about the hall expenses?", "What is the monthly fee of the hall expenses?"],
+         "responses": ["Students have to pay Tk.2700 per month for hall fee. Dining bill is separated and students have to pay for their meal if they sign for meal."],
+         "context_set": ""
+        },
+
+        {"tag": "food quality",
+         "patterns": ["how about the food quality in canteen?", "how about the food quality in hall?"],
+         "responses": ["Mist authority always cares about the quality of food in both canteen and hall."],
+         "context_set": ""
+        },
+
+        {"tag": "graduation duration",
+         "patterns": ["how much time does it take to gradute from Mist?"],
+         "responses": ["As Mist strictly follows the academic calendar, it takes at most 4 years to gradute except architecture engineering. But it can take a bit longer if someone fails to complete all courses."],
+         "context_set": ""
+        },
+
+        {"tag": "uniform",
+         "patterns": ["Do mist students have to wear uniform?", "is uniform compulsory in Mist? "],
+         "responses": ["Students have to wear uniform from sunday to wednesday. They can wear civil dresses on thursday."],
+         "context_set": ""
+        },
+
+        {"tag": "second time",
+         "patterns": ["Can anyone give admission test for second time?"],
+         "responses": ["Second timer students can apply for MIST"],
+         "context_set": ""
+        },
+
+        {"tag": "sports",
+         "patterns": ["is there any field for students to play?", "can students play football or cricket in playground?", "outdoor games"],
+         "responses": ["there is a field for students where they can play. Besides each year several tournaments are arranged by the MIST authority."],
+         "context_set": ""
+        },
+
+        {"tag": "reasons to admit",
+         "patterns": ["why should I choose MIST?", "why should I get admitted in MIST?"],
+         "responses": ["If anyone wants to get himself or herself admitted into an engineering university then MIST is the only government engineering university in Dhaka after BUET. MIST authority tries to complete each session in time so students can gradute within 4 years. Besides there is no politics in MIST, campus environment is very friendly, as it is run by military so it is safe for girls and there is no ragging, rules are strictly maintained here which prevents unwanted issues and students will experience a corporate like life."],
+         "context_set": ""
+        },
+
+        {"tag": "stipend",
+         "patterns": ["does MIST provide any stipend?", "is there any scholarship for students?"],
+         "responses": ["MIST provides both scholarships and stipend for financially weak students. "],
+         "context_set": ""
+        },
+
+        {"tag": "MIST_Bangla",
+         "patterns": ["এই প্রতিষ্ঠানের নাম কি?", "এই ইনস্টিটিউটের নাম কি?"],
+         "responses": ["মিলিটারি ইনস্টিটিউট অফ সায়েন্স অ্যান্ড টেকনোলজি"],
+         "context_set": ""
+        },
+
+        {"tag": "reasons to admit bangla",
+         "patterns": ["কেন আমি এমআইএসটি বেছে নেব?", "কেন আমি এমআইএসটিতে ভর্তি হব?"],
+         "responses": ["যদি কেউ নিজেকে বা নিজেকে একটি ইঞ্জিনিয়ারিং বিশ্ববিদ্যালয়ে ভর্তি করতে চান তবে বুয়েটের পরে এমআইএসটি ঢাকার একমাত্র সরকারী প্রকৌশল বিশ্ববিদ্যালয়। এমআইএসটি কর্তৃপক্ষ প্রতিটি অধিবেশন সময়মতো সম্পন্ন করার চেষ্টা করে যাতে শিক্ষার্থীরা 4 বছরের মধ্যে গ্রেড করতে পারে। এমআইএসটিতে কোনও রাজনীতি নেই, ক্যাম্পাসের পরিবেশটি অত্যন্ত বন্ধুত্বপূর্ণ, এটি সামরিক বাহিনী দ্বারা পরিচালিত তাই এটি মেয়েদের জন্য নিরাপদ এবং কোনও র‌্যাগিং নেই, নিয়ম এখানে কঠোরভাবে বজায় রাখা হয়েছে যা অবাঞ্ছিত বিষয়গুলি রোধ করে এবং শিক্ষার্থীরা জীবনের মতো কর্পোরেট অভিজ্ঞতা অর্জন করবে।"],
+         "context_set": ""
+        },
+
+        {"tag": "second time bangla",
+         "patterns": ["দ্বিতীয়বারের মতো কেউ ভর্তি পরীক্ষা দিতে পারবে?"],
+         "responses": ["দ্বিতীয় টাইমার শিক্ষার্থীরা এমআইএসটির জন্য আবেদন করতে পারবেন"],
+         "context_set": ""
+        },
+
+        {"tag": "graduation duration bangla",
+         "patterns": ["এমআইএসটি থেকে স্নাতক হতে কত সময় লাগে?"],
+         "responses": ["যেহেতু মিস্ট কঠোরভাবে একাডেমিক ক্যালেন্ডার অনুসরণ করে, আর্কিটেকচার ইঞ্জিনিয়ারিং ছাড়া স্নাতক হতে প্রায় চার বছর সময় নেয়।  তবে কেউ যদি সমস্ত কোর্স শেষ করতে ব্যর্থ হয় তবে এটি আরও কিছুটা সময় নিতে পারে।"],
+         "context_set": ""
+        },
+
+        {"tag": "hall expenses bangla",
+         "patterns": ["হলের ব্যয় কেমন?", "হল ব্যয়ের মাসিক ফি কত?"],
+         "responses": ["শিক্ষার্থীদের হল ফি বাবদ প্রতি মাসে 2700 টাকা দিতে হয়। ডাইনিং বিল পৃথক করা হয় এবং শিক্ষার্থীরা যদি তারা খাবারের জন্য স্বাক্ষর করে তবে তাদের খাওয়ার জন্য অর্থ প্রদান করতে হবে।"],
+         "context_set": ""
+        },
+
+        {"tag": "Department bangla",
+         "patterns": ["এমআইএসটির কতটি বিভাগ রয়েছে?", "এমআইএসটিতে মোট বিভাগের সংখ্যা কত?"],
+         "responses": ["এমআইএসটি-তে মোট ১৩ টি বিভাগ রয়েছে।"],
+         "context_set": ""
+        },
+
+        {"tag": "Faculty bangla",
+         "patterns": ["সিএসই বিভাগে কতটি অনুষদ রয়েছে?"],
+         "responses": ["১ জন বিভাগের প্রধান, ৪ জন অধ্যাপক, ৩ জন সহযোগী অধ্যাপক, ৬ জন সহকারী অধ্যাপক এবং ১৬ জন প্রভাষক"],
+         "context_set": ""
+        },
+
+        {"tag": "food quality bangla",
+         "patterns": ["ক্যান্টিনে খাবারের মান কেমন?", "হলের খাবারের মান কেমন?"],
+         "responses": ["এমআইএসটি কর্তৃপক্ষ সবসময় ক্যান্টিন এবং হল উভয় খাবারের মানের সম্পর্কে যত্নশীল।"],
+         "context_set": ""
+        },
+
+        {"tag": "hall seat bnagla",
+         "patterns": ["শিক্ষার্থীদের জন্য কি কোনও হল রয়েছে?", "হল সিট পাওয়া যায়?"],
+         "responses": ["এমআইএসটির ওসমানী হল রয়েছে যা দুটি ভাগে বিভক্ত: পুরুষ উইং এবং মহিলা উইং। ছাত্র সংখ্যা ওসমানী হলে আসনের সংখ্যা ছাড়িয়ে গেলেও মিস্ট কর্তৃপক্ষ মিরপুর ডিওএইচএসের এক্সটেনশন হল পরিচালনা করে। তবে কখনও কখনও এটি আসন পেতে কিছুটা সময় নিতে পারে।"],
+         "context_set": ""
+        },
+
+        {"tag": "public bangla",
+         "patterns": ["এটা কি বেসরকারী না সরকারী?"],
+         "responses": ["মিলিটারি ইনস্টিটিউট অফ সায়েন্স অ্যান্ড টেকনোলজি (এমআইএসটি) বাংলাদেশের মিরপুর সেনানিবাসের একটি পাবলিক ইঞ্জিনিয়ারিং প্রতিষ্ঠান "],
+         "context_set": ""
+        }
+
+        
+
+
+
+
+
+   ]
+}

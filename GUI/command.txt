@@ -1,0 +1,4 @@
+cd chatbot
+cd Thesis
+cd GUI
+streamlit run gui.py
